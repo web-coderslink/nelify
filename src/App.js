@@ -1,12 +1,14 @@
-
-import './App.css';
+import { Route, BrowserRouter, Routes } from "react-router-dom";
+import "./App.css";
+import Intro from "./page/page1";
 
 function App() {
   return (
-    <div className="App">
-    "working     hey hey eheyeyey"
-     <h1> working ............. again</h1>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Intro />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
