@@ -1,0 +1,23 @@
+.head{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+}
+
+.icon{
+    
+    width: 70vh;
+}
+
+.nav{
+    width: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color:white;
+}
