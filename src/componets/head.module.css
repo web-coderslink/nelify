@@ -52,13 +52,13 @@
         width: 60vh;
         display: flex;
         justify-content: space-evenly;
-        font-size: small;
+        font-size:10px;
     
         
     }
     
     .nav a{
-        text-decoration: 5px underline;
+        text-decoration: 6px underline;
         color:white;
      
     }
