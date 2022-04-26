@@ -1,3 +1,4 @@
+import classes from "./Contact.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -7,12 +8,17 @@ import {
   faLinkedin,
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
-import classes from "./Footer.module.css";
-
-export default function Footer() {
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
+export default function Contact() {
   return (
-    <footer>
-        created by Vanathi @copyrights
+    <>
+      <section className={classes.Contact}>
+        <div className={classes.card}>
+        <div style={{marginBottom:'1rem'}}>CONTACT</div>
+            <div style={{marginBottom:'1rem'}}>Vanathi Muthuraman</div>
+            <div style={{marginBottom:'1rem'}}><FontAwesomeIcon icon={faPhone} color='white' />  +9361567651</div>
+            <div><FontAwesomeIcon icon={faEnvelope} color='white' /> vanathiceles9024@gmail.com</div>
         <div className={classes.social}>
             <a href="https://www.instagram.com/vanavan_art/">
               <FontAwesomeIcon icon={faInstagram} color="deeppink" />{" "}
@@ -36,6 +42,9 @@ export default function Footer() {
               ></FontAwesomeIcon>
            </a>
           </div>
-    </footer>
+        </div>
+    
+      </section>
+    </>
   );
 }

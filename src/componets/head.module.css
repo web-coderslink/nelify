@@ -10,6 +10,11 @@
     width: 70vh;
 }
 
+.icon a{
+    text-decoration: none;
+    color:white;
+}
+
 .nav{
     width: 60vh;
     display: flex;
@@ -20,4 +25,45 @@
 .nav a{
     text-decoration: none;
     color:white;
+}
+
+
+@media screen and (max-width:600px){
+  
+    .head{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width: inherit;
+    }
+    
+    .icon{
+        
+        width: 70vh;
+    }
+    
+    .icon a{
+        text-decoration: none;
+        color:white;
+      
+    }
+    
+    .nav{
+        width: 60vh;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: small;
+    
+        
+    }
+    
+    .nav a{
+        text-decoration: 5px underline;
+        color:white;
+     
+    }
+
+    .nav a:active{
+        text-decoration:pink 5px underline;
+    }
 }

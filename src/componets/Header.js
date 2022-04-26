@@ -5,13 +5,13 @@ export default function Header() {
   return (
     <header className={classes.head}>
       <div className={classes.icon}>
-        <h4>vanathi Resume</h4>
+  <a href="/"><h4>Vanathi Muthuraman</h4></a>
       </div>
 
       <div className={classes.nav}>
-        <NavLink to="/Home">HOME</NavLink>
+        <NavLink to="/">HOME</NavLink>
         <NavLink to="/aboutme">ABOUT ME</NavLink>
-        <NavLink to="/project">PROJECTS</NavLink>
+        <NavLink to="/projects">PROJECTS</NavLink>
         <NavLink to="/contact">CONTACT</NavLink>
       </div>
     </header>

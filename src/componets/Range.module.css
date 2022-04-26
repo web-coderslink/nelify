@@ -14,7 +14,7 @@ padding:3px;
    background-color: green;
    width: 70%;
    height:3vh;
-   padding:5px;
+ 
    border-radius: 20px;
 }
 
@@ -22,4 +22,19 @@ padding:3px;
     background-color: orange;
     height:inherit;
     border-radius: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Value .fill span{
+    font-size:9px;
+    background-color: rgb(3, 3, 26);
+    border-radius:50%;
+    width: 1.6rem;
+    height: 1.6rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;    
+
 }
