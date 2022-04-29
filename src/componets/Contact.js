@@ -6,7 +6,7 @@ import {
   faGoogle,
   faInstagram,
   faLinkedin,
-  faYoutube,
+  faYoutube,faFigma
 } from "@fortawesome/free-brands-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
@@ -41,6 +41,7 @@ export default function Contact() {
                 color="dodgerblue"
               ></FontAwesomeIcon>
            </a>
+           <a  href='https://www.figma.com/files/project/48232135/Team-project?fuid=1070212503789656397' > <FontAwesomeIcon  icon={faFigma} color='torquise'  ></FontAwesomeIcon></a>
           </div>
         </div>
     

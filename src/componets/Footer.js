@@ -6,6 +6,7 @@ import {
   faInstagram,
   faLinkedin,
   faYoutube,
+  faFigma
 } from "@fortawesome/free-brands-svg-icons";
 import classes from "./Footer.module.css";
 
@@ -35,6 +36,7 @@ export default function Footer() {
                 color="dodgerblue"
               ></FontAwesomeIcon>
            </a>
+           <a  href='https://www.figma.com/files/project/48232135/Team-project?fuid=1070212503789656397' > <FontAwesomeIcon  icon={faFigma} color='torquise'  ></FontAwesomeIcon></a>
           </div>
     </footer>
   );
