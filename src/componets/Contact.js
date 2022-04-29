@@ -41,7 +41,7 @@ export default function Contact() {
                 color="dodgerblue"
               ></FontAwesomeIcon>
            </a>
-           <a  href='https://www.figma.com/files/project/48232135/Team-project?fuid=1070212503789656397' > <FontAwesomeIcon  icon={faFigma} color='torquise'  ></FontAwesomeIcon></a>
+           <a  href='https://www.figma.com/files/project/48232135/Team-project?fuid=1070212503789656397' > <FontAwesomeIcon  icon={faFigma} color='white'  ></FontAwesomeIcon></a>
           </div>
         </div>
     
