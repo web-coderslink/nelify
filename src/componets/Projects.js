@@ -1,5 +1,6 @@
 import classes from './project.module.css'
 import ProjectCard from './ProjCard'
+import ProjectCardFigma from './ProjCardFigma'
 
 export default function Project(){
     return (<section className={classes.project} >
@@ -20,7 +21,7 @@ export default function Project(){
 
         <article className={classes.title}>Figma Projects</article>
         <main className={classes.lst}>
-         <ProjectCard image='https://github.com/web-coderslink/Figma-projects/blob/main/Android%20Large%20-%201hat-shop-mob.png?raw=true' name='Hats shop(mobile)' />
+         <ProjectCardFigma image='https://github.com/web-coderslink/Figma-projects/blob/main/Android%20Large%20-%201hat-shop-mob.png?raw=true' name='Hats shop(mobile)' />
         </main>
     </section>)
 }
