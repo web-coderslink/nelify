@@ -17,5 +17,10 @@ export default function Project(){
         <ProjectCard name='Weather app' image='https://www.sketchappsources.com/resources/source-image/weather-app-icons.jpg' details='some' link="https://late-condition.surge.sh/" />
         <ProjectCard name='Meals Today' image='https://www.blueosa.com/wp-content/uploads/2020/07/butter-chicken-Chicken-Makhani.jpg' details='some' link='https://626c24b3461b920059cdbcda--ephemeral-bunny-176a29.netlify.app/' />
         </main>
+
+        <article className={classes.title}>Figma Projects</article>
+        <main className={classes.lst}>
+         <ProjectCard image='https://github.com/web-coderslink/Figma-projects/blob/main/Android%20Large%20-%201hat-shop-mob.png?raw=true' name='Hats shop(mobile)' />
+        </main>
     </section>)
 }
