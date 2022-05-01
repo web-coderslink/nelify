@@ -67,10 +67,8 @@ export default function Home() {
           </div>
           <div className={classes.Abt2}>
             <h2>About me</h2>
-            <p>On a course of five months i was able to master Web development .
-              With sincere hardwork and dedication i learnt as many programming languages as possible.
-              Further i extended my knowledge in creating dynamic webpages and hosting them .Web development triggers my creative part more than any other feild could .It is so thrilling and exciting everytime . . . . .  
-            </p>
+            <p>Hello, I am vanathi  and I am a  beginner in web development . Im  a creative thinker and an excellent artist . Started web developement few months ago and now I spend most of my day, experimenting with HTML, CSS and JavaScript (and its endless list of frameworks). I enjoy coding and the challenge of learning something new everyday. My works are in Figma and Github. 
+               </p>
             <a href='/aboutme'><button>Read more</button></a>
           </div>
         </div>

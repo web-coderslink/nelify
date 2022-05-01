@@ -65,8 +65,7 @@ export default function About() {
         About me</div>
         <div className={classes.contents}>
           <p>
-          Having been introduced to web development few months ago i was able to master MERN stack framework.
-          
+          Hello, I am vanathi  and I am a  beginner in web development . Im  a creative thinker and an excellent artist . Started web developement few months ago and now I spend most of my day, experimenting with HTML, CSS and JavaScript (and its endless list of frameworks). I enjoy coding and the challenge of learning something new everyday. My works are in Figma and Github. 
           </p>
         </div>
       </div>
