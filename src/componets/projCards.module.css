@@ -1,0 +1,41 @@
+.projcards{
+  height: 60vh;
+  margin: 5px;
+  background-color: black;
+  border:10px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.projcards  .subcard  a {
+
+  height:95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.projcards a img{
+ height: 100%;
+ box-sizing: border-box;
+}
+
+.projcards .subcard {
+  background-color: rgb(253, 253, 253);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+
+.projcards .subcard div{
+  padding:5px;
+  color:black;
+}
