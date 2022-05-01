@@ -24,7 +24,7 @@ export default function Home() {
         </div>
 
         <div className={classes.stick}>
-          <div className={classes.img}>vanathi photo</div>
+          <div className={classes.img}><img src='https://scontent.fixm1-1.fna.fbcdn.net/v/t1.6435-9/56742558_1736187646527831_695840235879137280_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=174925&_nc_ohc=gvBfkCOjjcUAX9qiei2&_nc_ht=scontent.fixm1-1.fna&oh=00_AT-ZOhFVfR2CaqcOCpoBPDHPhrocPhdGinAqxJIjPOI-QA&oe=6293EB52' alt='avvanathi'></img></div>
         </div>
 
         <div className={classes.logo}>
@@ -79,22 +79,22 @@ export default function Home() {
           <h3>Recent Works</h3>
           <ul>
             <li>
-              <span></span> project 1
+              <span></span> Daily Journal
             </li>
             <li>
-              <span></span> project 2
+              <span></span> Quick image edit
             </li>
             <li>
-              <span></span> project 3
+              <span></span> Food order app
             </li>
             <li>
-              <span></span> project 4
+              <span></span> Figma projects
             </li>
             <li>
-              <span></span> project 5
+              <span></span> Rendering recepie app
             </li>
           </ul>
-          <button>Explore</button>
+          <a href='/projects'><button>Explore</button></a>
         </div>
       </article>
 

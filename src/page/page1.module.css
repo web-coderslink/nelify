@@ -125,6 +125,12 @@
   margin-left: -50%;
 }
 
+.stick .img img{
+  height: 25vh;
+  width: 25vh;
+  border-radius: 50%;
+}
+
 @keyframes stick {
   0% {
     transform: rotate(0deg);
